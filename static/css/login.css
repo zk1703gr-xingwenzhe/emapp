@@ -1,0 +1,65 @@
+.page{
+	background: #f4f4f4;
+	font-size: 30upx;
+}
+.content{
+	margin-top: 50upx;
+}
+input{
+	background: white;
+	width: 90%;
+	height: 100upx;
+	padding-left: 30upx;
+	margin: 5upx 5%;
+}
+picker{
+	background: white;
+	width: 90%;
+	height: 100upx;
+	padding-left: 30upx;
+	margin: 5upx 5%;
+}
+.uni-input{
+	background: white;
+	width: 90%;
+	height: 100upx;
+	padding-left: 30upx;
+	margin: 5upx 5%;
+}
+button{
+	width: 90%;
+	margin: 5upx 5%;
+	color: white;
+	background: #CCCC33;
+	border-radius: 10upx;
+}
+uni-icon{
+	position: relative;
+	top: -80upx;
+	right: 40upx;
+	float: right;
+	z-index: 5;	
+}
+/* 注册页面 */
+radio-group{
+	margin: 0upx 5%;
+}
+label{
+	margin: 0upx 60upx 0upx 0upx;
+}
+radio-group{
+	background: white;
+	width: 86%;
+	height: 100upx;
+	padding-left: 30upx;
+	margin: 30upx 5%;
+	line-height: 100upx;
+}
+picker{
+	background: white;
+	width: 86%;
+	height: 100upx;
+	padding-left: 30upx;
+	margin: 30upx 5%;
+	line-height: 100upx;
+}

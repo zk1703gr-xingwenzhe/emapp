@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{"path": "pages/home/login","style": {"navigationBarTitleText": "登录",
+		"app-plus": {"titleNView": {"buttons": [{"text": "注册","fontSize": "15px"}]}}}},
+		{"path": "pages/home/register","style": {"navigationBarTitleText": "注册"}},
+		{"path": "pages/home/index","style": {"navigationBarTitleText": "主页页面"}},
+		{"path": "pages/home/fx","style": {"navigationBarTitleText": "分析页面"}},
+		{"path": "pages/home/yw","style": {"navigationBarTitleText": "业务页面"}},
+		{"path": "pages/home/report","style": {"navigationBarTitleText": "报表页面"}},
+		{"path": "pages/home/person","style": {"navigationBarTitleText": "我的页面"}},
+		{"path": "pages/charts/chart02","style": {"navigationBarTitleText": "设备作业量"}},
+		{"path": "pages/tables/table02","style": {"navigationBarTitleText": "成本核算信息"}},
+		{"path": "pages/charts/chart03","style": {"navigationBarTitleText": "港口能耗对比"}},
+		{"path": "pages/charts/chart04","style": {"navigationBarTitleText": "流程作业量对比"}},
+		{"path": "pages/home/phone-search","style": {"navigationBarTitleText": "搜索联系人"}},
+		{"path": "pages/home/phones","style": {"navigationBarTitleText": "通讯录"}},
+		{"path": "pages/yw/synchro","style": {"navigationBarTitleText": "数据采集"}}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83", //字体颜色
+	    "selectedColor": "#1296db", //字体选中颜色
+	    "backgroundColor": "#ffffff", //底部栏背景颜色
+	    "list": [{
+	        "pagePath": "pages/home/index",
+	        "iconPath": "static/imgs/home1.png",
+	        "selectedIconPath": "static/imgs/home2.png",
+	        "text": "主页"
+	    },{
+	        "pagePath": "pages/home/fx",
+	        "iconPath": "static/imgs/fx1.png",
+	        "selectedIconPath": "static/imgs/fx2.png",
+	        "text": "分析"
+	    },{
+	        "pagePath": "pages/home/yw",
+	        "iconPath": "static/imgs/yw1.png",
+	        "selectedIconPath": "static/imgs/yw2.png",
+	        "text": "业务"
+	    },{
+	        "pagePath": "pages/home/report",
+	        "iconPath": "static/imgs/report1.png",
+	        "selectedIconPath": "static/imgs/report2.png",
+	        "text": "报表"
+	    },{
+	        "pagePath": "pages/home/person",
+	        "iconPath": "static/imgs/person1.png",
+	        "selectedIconPath": "static/imgs/person2.png",
+	        "text": "我的"
+	    }]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [
+			{"name": "register","path": "pages/home/register"},
+			{"name": "login","path": "pages/home/login"},
+			{"name": "index","path": "pages/home/index"},
+			{"name": "fx","path": "pages/home/fx"},
+			{"name": "person","path": "pages/home/person"},
+			{"name": "report","path": "pages/home/report"},
+			{"name": "yw","path": "pages/home/yw"},
+			{"name": "phone-search","path": "pages/home/phone-search"},
+			{"name": "phones","path": "pages/home/phones"},
+			{"name": "synchro","path": "pages/yw/synchro"}
+		]
+	}
+}
